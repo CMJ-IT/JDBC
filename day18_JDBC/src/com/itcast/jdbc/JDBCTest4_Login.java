@@ -11,6 +11,7 @@ import java.util.Scanner;
  * 3. 使用SQL根据用户的账号和密码去数据库查询数据
  * 4. 如果查询到数据，说明登录成功
  * 5. 如果查询不到数据，说明登录失败
+ * 问题:有SQL注入,密码:a' or '1'='1 也正确
 */
 public class JDBCTest4_Login {
     public static void main(String[] args) throws Exception{
